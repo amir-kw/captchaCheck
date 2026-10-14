@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>captcha</title>
+</head>
+<body>
+    <form class="form">
+        <div class="input">
+            <label for="username">enter your name:</label>
+            <input type="text" id="username" placeholder="Amir">
+        </div>
+        <div class="input">
+            <label for="lastname">enter your Last-name:</label>
+            <input type="text" id="lastname" placeholder="Kia">
+        </div>
+        <div class="input">
+            <label for="email">enter your email:</label>
+            <input type="email" name="" id="email" placeholder="@gmail.com" required>
+        </div>
+        <div class="Icaptcha">
+            <label for="Icaptcha">enter the cpathca:</label>
+            <input type="text" id="Icaptcha" placeholder="*****">
+        </div>
+        <div class="captchaBox">
+            <div class="reload"><button id="refreshBtn"><img src="./public/imgs/icons8-refresh.svg" alt="#"></button></div>
+            <div class="captcha"></div>
+        </div>
+        <div class="enter">
+            <div class="subEnter">
+                <!-- <button id="applyBtn">apply</button> -->
+                <input type="submit" id="applyBtn" value="Apply">
+            </div>
+        </div>
+    </form>
+</body>
+<script src="./JS/main.js"></script>
+</html>
